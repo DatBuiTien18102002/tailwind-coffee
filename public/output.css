@@ -698,6 +698,11 @@ video {
   margin-right: auto;
 }
 
+.my-8{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .mb-24{
   margin-bottom: 6rem;
 }
@@ -726,6 +731,10 @@ video {
   margin-top: 2rem;
 }
 
+.mb-16{
+  margin-bottom: 4rem;
+}
+
 .block{
   display: block;
 }
@@ -742,20 +751,20 @@ video {
   display: none;
 }
 
-.h-\[530px\]{
-  height: 530px;
+.h-\[440px\]{
+  height: 440px;
 }
 
-.h-\[540px\]{
-  height: 540px;
+.h-\[530px\]{
+  height: 530px;
 }
 
 .h-full{
   height: 100%;
 }
 
-.h-\[440px\]{
-  height: 440px;
+.h-\[380px\]{
+  height: 380px;
 }
 
 .w-11\/12{
@@ -766,8 +775,8 @@ video {
   width: 100px;
 }
 
-.w-\[65\%\]{
-  width: 65%;
+.w-\[95\%\]{
+  width: 95%;
 }
 
 .w-full{
@@ -777,10 +786,6 @@ video {
 .w-max{
   width: -moz-max-content;
   width: max-content;
-}
-
-.w-\[95\%\]{
-  width: 95%;
 }
 
 .max-w-screen-2xl{
@@ -828,10 +833,6 @@ video {
   cursor: pointer;
 }
 
-.grid-cols-2{
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
 .grid-cols-1{
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -858,10 +859,6 @@ video {
 
 .gap-2{
   gap: 0.5rem;
-}
-
-.gap-4{
-  gap: 1rem;
 }
 
 .gap-8{
@@ -897,6 +894,42 @@ video {
 
 .bg-\[url\(\'\.\/img\/slider-bg\.jpeg\'\)\]{
   background-image: url('./img/slider-bg.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/product-coffee-01\.jpeg\'\)\]{
+  background-image: url('./img/product-coffee-01.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/product-coffee-02\.jpeg\'\)\]{
+  background-image: url('./img/product-coffee-02.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/product-coffee-03\.jpeg\'\)\]{
+  background-image: url('./img/product-coffee-03.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/product-coffee-04\.jpeg\'\)\]{
+  background-image: url('./img/product-coffee-04.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/product-coffee-05\.jpeg\'\)\]{
+  background-image: url('./img/product-coffee-05.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/product-coffee-06\.jpeg\'\)\]{
+  background-image: url('./img/product-coffee-06.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/product-coffee-07\.jpeg\'\)\]{
+  background-image: url('./img/product-coffee-07.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/product-coffee-08\.jpeg\'\)\]{
+  background-image: url('./img/product-coffee-08.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/product-coffee-09\.jpeg\'\)\]{
+  background-image: url('./img/product-coffee-09.jpeg');
 }
 
 .bg-cover{
@@ -1151,16 +1184,16 @@ video {
     display: none;
   }
 
-  .lg\:w-\[65\%\]{
-    width: 65%;
-  }
-
   .lg\:w-\[75\%\]{
     width: 75%;
   }
 
   .lg\:basis-1\/6{
     flex-basis: 16.666667%;
+  }
+
+  .lg\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .lg\:items-center{
